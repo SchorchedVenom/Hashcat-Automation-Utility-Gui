@@ -395,8 +395,8 @@ def executeCommand():
     global hashCommand
     global hashPathEntry
     global hashPathValue
-    hashPathValue = hashPathEntry.get()
     if operate == "Windows" or operate == "OSx":
+        hashPathValue = hashPathEntry.get()
         os.chdir(str(hashPathValue))
     os.system(str(hashCommand))
     
