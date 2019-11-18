@@ -1,6 +1,6 @@
 # Hashcat-Automation-Utility-Gui
 GUI Version of my Hashcat Automation Utility
-#Usuage
+#Usage
 git clone https://github.com/SchorchedVenom/Hashcat-Automation-Utility-Gui
 cd Hashcat-Automation-Utility-Gui
 python3 hau-gui.py
